@@ -51,7 +51,7 @@ module "ssh_key_pair" {
 
 module "vote_service_sg" {
   source      = "terraform-aws-modules/security-group/aws"
-  version     = "4.2.0"
+  version     = "4.3.0"
   name        = "user-service"
   description = "Security group for user-service with custom ports open within VPC, and PostgreSQL publicly open"
   vpc_id      = data.terraform_remote_state.network.outputs.vpc_id
