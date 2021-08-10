@@ -1,9 +1,5 @@
 #!/usr/bin/env sh
 
-if ! command -v terraform > /dev/null ; then echo terraform not installed ;  exit 0 ; fi
-if ! command -v docker > /dev/null ; then echo docker not installed ;  exit 0 ; fi
-if ! command -v docker-compose > /dev/null ; then echo docker-compose not installed ;  exit 0 ; fi
-
 if [ $# -eq 0 ] ; then
     echo """
     options:
