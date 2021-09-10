@@ -2,13 +2,6 @@
 .terraform
 .terraform.lock.hcl
 *.svg
-audit.log
-crash.log
 kubeconfig_*
-recovery-key.txt
 secrets
-temp-unseal
-temp-wrap
 terraform.tfvars
-vault-init
-vault-transit
