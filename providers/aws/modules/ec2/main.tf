@@ -34,7 +34,7 @@ resource "aws_secretsmanager_secret_version" "example" {
 
 resource "aws_secretsmanager_secret" "some_ssh_key" {
   recovery_window_in_days = 0
-  name = "secret/ssh_keys/some_ssh_key"
+  name                    = "secret/ssh_keys/some_ssh_key"
 }
 
 module "ssh_key_pair" {
