@@ -2,6 +2,9 @@ name: terraform
 
 on:
   push:
+    paths:
+      - providers/aws/personalaccount/dev/network/
+      - providers/aws/modules/network/
 
 jobs:
 
